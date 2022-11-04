@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+dist/
+TEST*.xml
+.DS_Store
+Thumbs.db
+cypress/screenshots/

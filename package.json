@@ -1,0 +1,24 @@
+{
+  "name": "cypress-cucumber-e2e",
+  "version": "1.0.0",
+  "description": "E2E testing with Cypress and Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "tests": "cypress-tags run -e TAGS=@buscarProduto --browser chrome --headed --no-exit"
+  },
+  "author": "leandro.ugioni",
+  "license": "ISC",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "4.0.2",
+    "@testing-library/cypress": "8.0.3",
+    "cypress": "9.7.0",
+    "cypress-cucumber-preprocessor": "latest",
+    "ts-loader": "5.3.1",
+    "typescript": "4.8.4",
+    "webpack": "4.28.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/steps"
+  }
+}

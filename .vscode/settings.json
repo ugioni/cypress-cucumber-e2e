@@ -1,0 +1,11 @@
+{
+  "cucumberautocomplete.steps": [
+    "cypress/support/steps/**/**/*.ts"
+  ],
+  "cucumberautocomplete.syncfeatures": "cypress/integration/**/*.feature",
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "editor.formatOnSave": true,
+  "[feature]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+  }
+}
