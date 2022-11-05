@@ -2,14 +2,11 @@
   "viewportWidth": 1920,
   "viewportHeight": 1080,
   "defaultCommandTimeout": 30000,
-  "baseUrl": "http://automationpractice.com/index.php",
   "pageLoadTimeout": 60000,
+  "baseUrl": "http://automationpractice.com/index.php",
   "testFiles": "**/*.feature",
   "video": false,
   "chromeWebSecurity": false,
   "supportFile": "cypress/support/commands.ts",
-  "retries": 0,
-  "env": {
-    "lojaUrl": "http://automationpractice.com/index.php"
-  }
+  "retries": 0
 }

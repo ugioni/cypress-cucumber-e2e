@@ -6,7 +6,7 @@ export class ProductPage {
   static accessApp() {
     cy.clearCookies();
     cy.clearLocalStorage();
-    cy.visit(Cypress.env("lojaUrl"));
+    cy.visit("/");
   }
 
   static searchProductByName() {

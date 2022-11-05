@@ -4,7 +4,7 @@
   "description": "E2E testing with Cypress and Cucumber",
   "main": "index.js",
   "scripts": {
-    "tests": "cypress-tags run -e TAGS=@buscarProduto --browser chrome --headed --no-exit"
+    "cypress": "cypress-tags run -e TAGS=@buscarProduto --browser chrome --headed --no-exit"
   },
   "author": "leandro.ugioni",
   "license": "ISC",
