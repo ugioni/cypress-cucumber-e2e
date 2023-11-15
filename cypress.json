@@ -3,7 +3,7 @@
   "viewportHeight": 1080,
   "defaultCommandTimeout": 30000,
   "pageLoadTimeout": 60000,
-  "baseUrl": "http://automationpractice.com/index.php",
+  "baseUrl": "http://www.automationpractice.pl/index.php",
   "testFiles": "**/*.feature",
   "video": false,
   "chromeWebSecurity": false,
